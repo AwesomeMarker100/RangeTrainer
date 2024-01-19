@@ -1,0 +1,30 @@
+name: RangeTrainer
+version: '${project.version}'
+main: anish.stoneworks.rangetrainer.RangeTrainer
+api-version: 1.18
+
+commands:
+  rangeaddspawn:
+    description: Sets a spawn for your range trainer!
+    usage: /<command>
+    permission: rangetrainer.setspawn
+
+  rangelistspawns:
+    description: List all spawns for range training!
+    usage: /<command>
+    permission: rangetrainer.listspawns
+
+  rangequeue:
+    description: Queue up to join a range training area!
+    usage: /<command>
+    permission: rangetrainer.queue
+
+  rangespawnmob:
+    description: Spawn a custom range train mob!
+    usage: /<command>
+    permission: rangetrainer.spawnmob
+
+  rangedelspawn:
+    description: Delete a spawn
+    usage: /<command>
+    permission: rangetrainer.setspawn
